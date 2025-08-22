@@ -1,0 +1,77 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container */
+.form-container {
+  background: #fff;
+  padding: 2rem;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Labels */
+form label {
+  display: block;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Inputs and textarea */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect */
+form input:focus,
+form textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74,144,226,0.5);
+  outline: none;
+}
+
+/* Button */
+form button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+form button:hover {
+  background: #357ab8;
+  transform: translateY(-2px);
+}
